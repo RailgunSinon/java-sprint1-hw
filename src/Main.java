@@ -13,7 +13,7 @@ public class Main {
 
         StepTracker stepTracker = new StepTracker();
 
-cycleMark:  while(true){ //Возможно, имеллось в виду сделать через метку
+          while(true){ //Возможно, имеллось в виду сделать через метку
                 printMenu();
                 userInput = "";
                 try{
@@ -47,7 +47,7 @@ cycleMark:  while(true){ //Возможно, имеллось в виду сде
                             break;
                         case 4:
                             System.out.println("Выбран пункт выхода. Всего доброго!");
-                            break cycleMark;
+                            return;
                         default:
                             System.out.println("Выбранный пункт не обнаружен в меню. Пожалуйста, выберите другой пункт.");
                             break;
