@@ -3,7 +3,7 @@ public class Converter {
     private static final double  stepInСalories = 50.0;
     private static final double  oneKiloCalory = 1000.0;
 
-    public double sterToKilometers(int steps){
+    public double stepToKilometers(int steps){
         return ((stepInMeters * steps)/1000);
     }
 
